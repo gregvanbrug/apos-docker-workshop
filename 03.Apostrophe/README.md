@@ -1,4 +1,4 @@
-# Apostrophe
+# 03 Apostrophe
 
 We'll use the Apostrophe CLI to scaffold our new site
 
