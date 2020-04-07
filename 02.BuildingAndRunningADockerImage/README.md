@@ -1,4 +1,4 @@
-# 01 Building and Running a Docker Image
+# 02 Building and Running a Docker Image
 
 ## Create your Dockerfile
 
