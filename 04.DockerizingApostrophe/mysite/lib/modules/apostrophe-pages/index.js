@@ -2,10 +2,19 @@
 // pages menu
 
 module.exports = {
+  park: [
+    {
+      slug: "/talks",
+      published: true,
+      parkedId: "talks",
+      title: "Talks",
+      type: "talks-pages"
+    }
+  ],
   types: [
     {
-      name: 'home',
-      label: 'Home'
+      name: "home",
+      label: "Home"
     }
 
     // Add more page types here, but make sure you create a corresponding
