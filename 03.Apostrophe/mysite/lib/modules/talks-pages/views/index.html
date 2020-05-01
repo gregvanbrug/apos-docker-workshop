@@ -1,0 +1,7 @@
+{% extends "apostrophe-templates:outerLayout.html" %}
+
+{% block main %}
+{% for talk in data.pieces %}
+    <a href="{{ talk._url }}">{{ talk.title }}</a>
+{% endfor %}
+{% endblock %}

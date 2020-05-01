@@ -1,0 +1,11 @@
+{% extends "apostrophe-templates:outerLayout.html" %}
+
+{% block main %}
+{% set img = apos.images.first(data.piece.image) %}
+<img src="{{ apos.attachments.url(img) }}" />
+
+<h1>{{ data.piece.title }}</h1>
+<p>{{ data.piece.time }}</p>
+
+{{ apos.area(data.piece, 'content') }}
+{% endblock %}
